@@ -22,11 +22,8 @@ console.log(process.env.FRONTEND_URL)
   };
 
   
-  // app.use(cors(corsOptions));
-app.use(cors({
-  origin: 'https://6639d34d692e08ad5bf6845f--gregarious-muffin-342ff7.netlify.app'
-}));
-  
+  app.use(cors(corsOptions));
+
   
 
 
